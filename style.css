@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to right, #094282, #6d00ff 70%, #6d00ff 70%);
+    color: #fff;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 8%;
+    display: flex;
+    align-items: center;
+    z-index: 10;
+    cursor: pointer;
+}
+nav img{
+    width: 200px;
+    cursor: pointer;
+}
+nav ul{
+    flex:1 ;
+    text-align: center;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 15px;
+}
+nav a{
+    text-decoration:none;
+    color: #fff;
+}
+.text-box{
+    margin-top: 18%;
+    max-width: 600px;
+}
+.text-box h1{
+    font-size: 70px;
+    line-height: 90px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.text-box p{
+    line-height: 28px;
+}
+.text-box button{
+    padding: 20px 40px;
+    background: #fff;
+    border: 0;
+    outline: 0;
+    margin-top: 40px;
+    margin-right: 10px;
+    border-radius: 50px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.text-box button:last-child{
+    background: #5957cf;
+    color: #fff;
+}
+.feature-img{
+    width: 400px;
+    position: absolute;
+    right: 15%;
+    top: 18%;
+    z-index: 2;
+    border-top-right-radius:200px;
+    border-top-left-radius: 200px;
+}
+.side-bar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 32%;
+    height: 100%;
+    background: linear-gradient(#8569ff,#006786);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.side-bar a{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    transform: rotate(90deg);
+
+}
+.side-bar img{
+    height: 30px;
+    margin-left: 20px;
+    transform: rotate(-90deg);
+}
+.text-box ul{
+    padding: 10px;
+}
+.text-box li{
+    padding: 8px;
+}
+.emms a{
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    margin-top: 25%;
+    justify-content: center;
+    
+}
+#my-style{
+    color: darkgrey;
+}
+#my-des{
+    color: darkgrey;
+}
+#boss{
+    color: darkgray;
+}
